@@ -15,8 +15,6 @@ spec:
       values: |
         image:
           tag: "{{.IMAGE_TAG}}"
-        ingress:
-          host: "{{.HOSTNAME}}"
       version: v3
   destination:
     namespace: "{{.APP_ID}}"
